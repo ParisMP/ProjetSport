@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".History">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="75"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal">
+        <!--F-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="75"
+            android:orientation="vertical">
+            <!--H-->
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#955381F4"
+                android:text="Go back to Menu" />
+
+
+            <!--L-->
+            <LinearLayout
+                android:layout_width="432dp"
+                android:layout_height="20dp"
+                android:layout_weight="19"
+                android:background="@android:color/background_light"
+                android:orientation="horizontal">
+                <!--M-->
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="410dp"
+                    android:layout_height="54dp"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="Welcome!"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="16"
+                android:background="@android:color/background_light"
+                android:orientation="horizontal">
+                <!--Y-->
+
+
+                <Button
+                    android:id="@+id/button_viewAll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#2196F3"
+                    android:text="Click here to view the history of matches"
+                    android:textColor="#FFFFFF" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="18"
+                android:background="@android:color/background_light"
+                android:orientation="horizontal">
+
+                <!--Q-->
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="228dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Enter the id of the match you wish to delete :"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/editText_id"
+                    android:layout_width="182dp"
+                    android:layout_height="95dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Enter here"
+                    android:layout_gravity="end"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="18"
+                android:background="@android:color/background_light"
+                android:orientation="horizontal">
+
+                <!--Q-->
+
+                <Button
+                    android:id="@+id/button_delete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#2196F3"
+                    android:text="DELETE"
+                    android:textColor="#FFFFFF" />
+
+
+            </LinearLayout>
+            <!--G-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
